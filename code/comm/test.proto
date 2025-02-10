@@ -1,0 +1,6 @@
+
+message Test
+{
+	optional uint32 a = 1;
+	optional uint32 b = 2;
+}
