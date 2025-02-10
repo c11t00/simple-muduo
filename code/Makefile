@@ -14,7 +14,7 @@ COMM_PATH = $(BUILD_DIR)/comm
 
 
 TARGET_PROJECTS := \
-	Test \
+	TestServer \
 	TestClient \
 
 INC_PATH := \

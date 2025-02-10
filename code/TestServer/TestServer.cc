@@ -2,7 +2,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "Test.h"
+#include "TestServer.h"
 #include "EventLoop.h"
 #include "ThreadPool.h"
 #include "Thread.h"
