@@ -5,7 +5,7 @@ CXXFLAGS = $(COMPILE_OPT)
 CXXLFLAGS = $(LINK_OPT)
 TARGET = $(TARGET_PATH)/$(TARGET_NAME)
 
-OBJS := $(patsubst %.cc, $(BUILD_PATH)/%.o, $(wildcard UnionCompile*.cc))
+OBJS := $(patsubst %.cc, $(BUILD_PATH)/%.o, $(wildcard *.cc))
 DEPS = $(OBJS:$(BUILD_PATH)/%.o=$(BUILD_PATH)/.%.d)
 
 all : $(TARGET)
