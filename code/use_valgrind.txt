@@ -1,0 +1,4 @@
+1. valgrind --tool=massif ./run/ScenesServer 启动进程
+2. 等待进程启动完成后,结束进程  得到结果文件 massif.out.pid
+3. ms_print massif.out.pid > result.txt 把结果输出到result.txt文件
+4. 查看result.txt中的结果
